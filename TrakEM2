@@ -1,0 +1,9 @@
+git init trakem2
+cd trakem2
+git remote add origin ../trakem2-347b7872.bundle
+git fetch
+git remote set-url origin https://repo.or.cz/trakem2.git
+git fetch --prune origin
+git remote set-head origin --auto
+git branch -r
+git checkout master
